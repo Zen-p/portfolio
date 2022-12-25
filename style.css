@@ -1,3 +1,5 @@
+
+
 body {
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
@@ -11,6 +13,7 @@ a {
 }
 
 .header {
+    min-width: 400px;
     background-color: #2f2fa2;
     height: 550px;
 }
@@ -19,7 +22,6 @@ a {
     display: flex;
     justify-content: center;
     gap: 20px;
-    
 }
 
 .cap p {
@@ -33,6 +35,9 @@ a {
 }
 
 .container {
+    padding: 0 15px;
+    min-width: 400px;
+
     margin: 0 auto;
     max-width: 900px;
     margin-top: 30px;
@@ -55,6 +60,7 @@ a {
 }
 
 .communication {
+    min-width: 330px;
     width: 500px;
     display: flex;
     justify-content: start;

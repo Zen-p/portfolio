@@ -1,0 +1,50 @@
+@media screen and (max-width: 900px) {
+    .preload img {
+        width: 250px;
+        
+    }
+    .texts p {
+        line-height: 20px;
+    }
+
+    .header {
+        max-height: 440px;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .preload {
+        flex-direction: column-reverse;
+        
+    }
+    .preload img {
+        width: 230px;
+        
+    }
+
+    .texts p {
+        text-align: center;
+        
+    }
+
+    .container p {
+        
+            font-size: 10px;
+            color: #fbeec1;
+        
+        
+    }
+
+    .links img {
+        width: 40px;
+    }
+
+    .header {
+        max-height: 960px;
+    }
+    
+
+}
+
+
+    

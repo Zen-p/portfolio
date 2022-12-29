@@ -1,10 +1,10 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 body {
     font-family: "Roboto", sans-serif;
-    box-sizing: border-box;
+    
     padding: 0;
     margin: 0;
     background-color: beige;
@@ -17,7 +17,7 @@ a {
 .header {
     min-width: 400px;
     background-color: #2f2fa2;
-    height: 550px;
+    
 }
 
 .cap {
@@ -61,11 +61,14 @@ a {
 }
 
 .communication {
-    width: 90%;
-
     display: flex;
-    justify-content: start;
-    margin-left: 15px;
+    justify-content: center;
+    gap: 14px;
+    align-items: center;
+    padding-bottom: 40px;
+}
 
-    gap: 30px;
+.links {
+    
+    gap: 5px;
 }
